@@ -5,12 +5,6 @@
     if(strcmp(argv[1],"1") == 0) {
         do_server();
     }
-    else if(strcmp(argv[1],"2") == 0){
-        do_client();
-    }
-    else {
-        do_test_server();
-    }
     return 0;
 }
 
